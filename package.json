@@ -1,0 +1,11 @@
+{
+  "name": "werkstatt",
+  "version": "1.0.0",
+  "description": "Maintenance app for workshops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Anselmo",
+  "license": "ISC"
+}
