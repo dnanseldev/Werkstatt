@@ -5,7 +5,8 @@ import { Customer } from "./customer";
 describe('Customer Entity', () => {
 
     test('Validate name', () => {
-        expect(Customer.isvalidName('Daniel')).toBe(true)
+        //expect(Customer.isvalidName('Daniel')).toBe(true)
+        expect(Customer.isvalidName('Daniel')).toBeTruthy()
     });
 
     test('Validate last name', () => {
