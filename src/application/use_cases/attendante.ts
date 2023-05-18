@@ -10,6 +10,6 @@ export class AttendantUseCase {
     }
 
     saveCustomer(cr: ICustomerRepository<CustomerDTO>): void {
-        cr.Save(this.cdto)
+        cr.Create(this.cdto)
     }
 }
