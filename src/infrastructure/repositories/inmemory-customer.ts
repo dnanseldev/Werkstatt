@@ -1,7 +1,7 @@
 import { ICustomerRepository } from "../../application/repositories/customer-repository";
 import { CustomerDTO } from "../../domain/entities/customer_aggregates/customer";
 
-export class InMemoryCustommer implements ICustomerRepository<CustomerDTO>
+export class InMemoryCustommerRepository implements ICustomerRepository<CustomerDTO>
 {
     customers: CustomerDTO[] = []
 
