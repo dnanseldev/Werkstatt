@@ -1,12 +1,12 @@
 import { TEntity } from "../interfaces/base-entity";
 
 export type CustomerDTO = {
-    ID: any;
+    ID: string;
     name: string;
     lastName: string;
     documentID: string;
     phoneNumber: string;
-    userID: any;
+    userID: string;
 }
 
 export class Customer extends TEntity {
